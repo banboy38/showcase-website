@@ -8,7 +8,7 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Button, Checkbox } from "@mui/material"
 
 import Script from 'next/script'
-import { NextFetchEvent } from "next/server"
+
 
 export default function Navbar() {
 

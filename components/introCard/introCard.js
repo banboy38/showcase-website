@@ -41,9 +41,9 @@ export default function IntroCard() {
           <Paper className="break-words">
             <HelloHead className="text-6xl mt-[-6em] md:mt-[0] mb-4"><span style={{"color":"red", "textShadow" : "0 0 6px red"}}>Hemlo</span> there!<br/><Red style={{"textShadow" : "0 0 6px red"}}>こんにちは</Red></HelloHead>
             
-            <TypedTextOne >I'm <span style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
+            <TypedTextOne >I&apos;m <span style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
             <TypedTextTwo>And this is my <span style = {{"color":"red", }}>dreadful excuse</span> of a webpage made using <Highlight > [Next.Js] </Highlight></TypedTextTwo>
-            <TypedTextThree>Well, it's mostly <HighlightTwo>[React.Js]</HighlightTwo> but <span style = {{"color":"red", }}>nevermind <span className="text-[0.8em]">🤙🏻</span></span></TypedTextThree>
+            <TypedTextThree>Well, it&apos;s mostly <HighlightTwo>[React.Js]</HighlightTwo> but <span style = {{"color":"red", }}>nevermind <span className="text-[0.8em]">🤙🏻</span></span></TypedTextThree>
             
 
             <Link passHref href="#skills">

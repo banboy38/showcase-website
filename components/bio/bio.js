@@ -24,7 +24,7 @@ export default function Bio() {
     if(didMount) {
         return(
             <>
-              <Script>{`
+              <Script id="japan">{`
                 function jackal() {
                   var reveals = document.querySelectorAll(".leftAnim");
                 
@@ -116,7 +116,7 @@ export default function Bio() {
                 <div className="flex justify-center">
                   <div className="rightAnim bg-[rgba(0,0,0,0.5)] md:p-3 rounded-xl w-[100%] md:w-[80%] text-center mt-[1em] mb-[1em]"><Green>生活</Green><br/><div className="text-[1.3em] mt-1">The Dream</div>
                     <div className="mt-3 ">
-                      I seriously started pursuing full-stack developement in my sophomore year of university, Birla Institute of Technology, Mesra. I started off with <Green>PHP</Green> and followed it up with <Green>Laravel</Green> because it was comfortable and easy to grasp for me. Then someone introduced me to the <Green>unfathomably asynchronous</Green> world of <Green>JavaScript</Green> and since then there's been no looking back. 
+                      I seriously started pursuing full-stack developement in my sophomore year of university, Birla Institute of Technology, Mesra. I started off with <Green>PHP</Green> and followed it up with <Green>Laravel</Green> because it was comfortable and easy to grasp for me. Then someone introduced me to the <Green>unfathomably asynchronous</Green> world of <Green>JavaScript</Green> and since then there&apos;s been no looking back. 
                     </div>                  
                   </div>
                 </div>
@@ -125,7 +125,7 @@ export default function Bio() {
                 <div className="flex justify-center">
                   <div className="leftAnim bg-[rgba(0,0,0,0.5)] md:p-3 rounded-xl w-[100%] md:w-[80%]  text-center mt-[1em] mb-[1em]"><Red><Yin>陰</Yin>陽</Red><br/><div className="text-[1.3em] mt-1">Perseverance</div>
                   <div className="mt-3 ">
-                      After close to two years of practice and a couple of projects later, at my current level of knowledge, I'm able to make full-stack web apps with <Red>React or it's meta-frameworks as frontend, ExpressJs and NodeJs as backend, MongoDB or MySQL/PostgreSQL/SQLite as database and REST/GraphQL as API architecture.</Red> I'm familiar with various React and ExpressJs libraries like <Red>Helmet, Passport, Redux, React-Hook-Form, MUI and Stripe among many others.</Red><br/> With this site, I decided to go out of my comfort zone and I built it using <Red>NextJs,</Red> an SSR-focused meta-framework based on React; other variants include <Red>Gatsby or Remix.</Red>
+                      After close to two years of practice and a couple of projects later, at my current level of knowledge, I&apos;m able to make full-stack web apps with <Red>React or it&apos;s meta-frameworks as frontend, ExpressJs and NodeJs as backend, MongoDB or MySQL/PostgreSQL/SQLite as database and REST/GraphQL as API architecture.</Red> I&apos;m familiar with various React and ExpressJs libraries like <Red>Helmet, Passport, Redux, React-Hook-Form, MUI and Stripe among many others.</Red><br/> With this site, I decided to go out of my comfort zone and I built it using <Red>NextJs,</Red> an SSR-focused meta-framework based on React; other variants include <Red>Gatsby or Remix.</Red>
                   </div> 
                   </div>
                 </div>
@@ -135,7 +135,7 @@ export default function Bio() {
                   <div className="siyaal bg-[rgba(0,0,0,0.5)] md:p-3 rounded-xl w-[100%] md:w-[80%] text-center mt-[1em] mb-[1em]"><Red>無限の彼方へ</Red><br/><div className="text-[1.3em] mt-1">The Present And The Future</div>
                   
                   <div className="mt-3 ">
-                      I'm actively looking for good <Red>freelancing</Red> oppurtunities to build and develop <Red>beautiful, functional, optimized and scalable web apps</Red> for my clients.<br/> Be it <Red>SQL or NoSQL, REST or GraphQL, dynamic or static, personal websites or mid-tier enterprise level applications; I can handle them all pretty effectively and cleanly.</Red><br/>I primarily use <Red>MERN</Red> Stack. I'm highly adaptable at my work, any add-ons or changes in the primary stack are done as and when <Red>required or requested.</Red>
+                      I&apos;m actively looking for good <Red>freelancing</Red> oppurtunities to build and develop <Red>beautiful, functional, optimized and scalable web apps</Red> for my clients.<br/> Be it <Red>SQL or NoSQL, REST or GraphQL, dynamic or static, personal websites or mid-tier enterprise level applications; I can handle them all pretty effectively and cleanly.</Red><br/>I primarily use <Red>MERN</Red> Stack. I&apos;m highly adaptable at my work, any add-ons or changes in the primary stack are done as and when <Red>required or requested.</Red>
                   </div>
                 </div>
                 </div>
