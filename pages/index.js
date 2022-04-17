@@ -11,7 +11,7 @@ import { Red, Shine } from "../components/parallax/style";
 import Portfolio from "../components/portfolio/portfolio";
 import Bio from "../components/bio/bio"
 import Contact from "../components/contact/contact";
-
+import Head from "next/head";
 
 // const Navbar = dynamic(
 //     () => {
@@ -78,10 +78,11 @@ export default function Welcome(){
     
 
     return(
-            <>  
-                <title>
-                  Anirban Aditya Halder
-                </title>
+            <>  <Head>
+                  <title>
+                    Anirban Aditya Halder
+                  </title>
+                </Head>
                 <Navbar/>              
                 <IntroCard/>
                 <Parallax/>
