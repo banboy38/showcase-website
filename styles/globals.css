@@ -1,7 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
+  font-weight : 300;
+  
+  background-image: url("../public/flower.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+  /* background-color: black; */
+
+  
+  scroll-behavior: smooth;
+  /* height : 100%; */
+
+  color : white;
   padding: 0;
-  margin: 0;
+  /* margin: 0.5em; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +31,171 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* .orange {
+  display : none;
+} */
+
+@layer components{
+  card{
+
+  }
+}
+
+.parallaxDiv {
+  overflow : visible;
+
+  /* margin-top : 4.3em; */
+  padding : 0.8em;
+  padding-top : 2.3em;
+  padding-bottom : 45vh;
+
+  font-size: 2.25rem; 
+  line-height: 2.5rem; 
+
+  /* box-shadow: inset 0 0 2em 2px black; */
+
+  min-height: 100vh;
+
+  /* background-image : url('../public/street.png'); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 740px) {
+    font-size : 1.875rem;
+    line-height: 2.25rem;
+}
+
+}
+
+/* ---------------------------------------------------------------------- */
+
+.prnt2 {
+  background: transparent;
+}
+.chld {
+  clip-path: ellipse(50% 90% at 7% 0%);
+  transition: all .2s ease-out;
+
+  @media (max-width:767px) {
+    clip-path: circle(87% at 0 0);
+  }
+}
+.prnt2:hover .chld {
+  
+  
+  clip-path: ellipse(93% 99% at 40% 77%);
+  z-index: 2;
+  
+  @media (max-width:767px) {
+    clip-path: circle(140% at 0 0);
+  }
+}
+.prnt:hover .prnt2:not(:hover) .chld {
+  transform : scale(0.94);
+  transition: all .3s ease-out;
+}
+.fun {
+
+  /* font-size: 0.625em; */
+  /* clip-path: margin-box; */
+  transform: translateX(-2.5%);  
+  opacity : 0;
+
+  z-index: 2;
+
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  
+}
+.prnt2:hover .fun {
+  
+  transform: translateX(0);
+  opacity : 1
+
+}
+
+.prnt:hover {
+  box-shadow: inset 0 0 1em rgba(0,0,0,0.5);
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.textAnim {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+.textAnim.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.siyaal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+.siyaal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.leftAnim {
+  /* clip-path: polygon(100% 0, 89% 50%, 100% 100%, 100% 100%, 89% 50%, 100% 0); */
+  position: relative;
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+.leftAnim.active{
+  /* clip-path: polygon(10% 0, 0 50%, 10% 100%, 100% 100%, 90% 50%, 100% 0); */
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.rightAnim {
+  /* overflow: hidden; */
+  position: relative;
+  transform: translateX(20px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+.rightAnim.active{
+  /* clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 15% 50%, 0% 0%); */
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ========================================================= */
+
+.reveal{
+  position: fixed;
+  transform: translateY(-240%);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  /* position:fixed; */
+  transform: translateY(0);
+  opacity: 1;
+}
+.reveal.passive{
+  transform: translateY(-240%);
+  opacity: 0;
+}
+
+/* ========================================================= */
+
+.roll {
+  clip-path: inset(0 0 100% 0);
+  transition: 1s all ease-out;
+}
+.roll.active {
+  clip-path: inset(0 0 0 0);
 }
