@@ -78,7 +78,10 @@ export default function Welcome(){
     
 
     return(
-            <> 
+            <>  
+                <title>
+                  Anirban Aditya Halder
+                </title>
                 <Navbar/>              
                 <IntroCard/>
                 <Parallax/>
