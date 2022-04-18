@@ -135,7 +135,7 @@ export default function Bio() {
                   <div className="siyaal bg-[rgba(0,0,0,0.5)] md:p-3 rounded-xl w-[100%] md:w-[80%] text-center mt-[1em] mb-[1em]"><Red>無限の彼方へ</Red><br/><div className="text-[1.3em] mt-1">The Present And The Future</div>
                   
                   <div className="mt-3 ">
-                      I&apos;m actively looking for good <Red>freelancing</Red> oppurtunities to build and develop <Red>beautiful, functional, optimized and scalable web apps</Red> for my clients.<br/> Be it <Red>SQL or NoSQL, REST or GraphQL, dynamic or static, personal websites or mid-tier enterprise level applications; I can handle them all pretty effectively and cleanly.</Red><br/>I primarily use <Red>MERN</Red> Stack. I&apos;m highly adaptable at my work, any add-ons or changes in the primary stack are done as and when <Red>required or requested.</Red>
+                      I&apos;m actively looking for good <Red>freelancing</Red> opportunities to build and develop <Red>beautiful, functional, optimized, SEO-friendly and scalable web apps</Red> for my clients.<br/> Be it <Red>SQL or NoSQL, REST or GraphQL, dynamic or static, personal websites or mid-tier enterprise level applications; I can handle them all pretty effectively and cleanly.</Red><br/>I primarily use <Red>MERN</Red> Stack. I&apos;m highly adaptable at my work, any add-ons or changes in the primary stack are done as and when <Red>required or requested.</Red>
                   </div>
                 </div>
                 </div>
