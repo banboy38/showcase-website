@@ -195,7 +195,7 @@ export const ExtraNav = styled.div`
     // font-size: 2.5rem; 
     line-height: 3rem;
 
-    min-height : 90vh;
+    min-height : 88vh;
 
     border-style : solid;
     border-width : 0.15em;
