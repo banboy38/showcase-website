@@ -99,7 +99,7 @@ export default function Bio() {
 
               <div id = "background" className=" break-words parallaxDiv bg-[url(/butterfly.png)]">
                 
-                <div className="textAnim text-[2.635rem] md:text-4xl text-center mt-[26vh] mb-[2em]">お前はもう<Yang>死</Yang>んでいる
+                <div className="textAnim text-[1.625rem] md:text-4xl text-center mt-[26vh] mb-[2em]">お前はもう<Yang>死</Yang>んでいる
                 <div className="mt-3 text-6xl">Background</div>
                 </div>
 
