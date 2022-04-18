@@ -27,7 +27,7 @@ export default function Portfolio(props){
             <>  
                 <Script>
                 {`
-                    function reveal() {
+                    async function reveal() {
                         var reveals = document.querySelectorAll(".textAnim");
                       
                         for (var i = 0; i < reveals.length; i++) {

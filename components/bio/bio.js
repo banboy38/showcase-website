@@ -25,7 +25,7 @@ export default function Bio() {
         return(
             <>
               <Script id="japan">{`
-                function jackal() {
+                async function jackal() {
                   var reveals = document.querySelectorAll(".leftAnim");
                 
                   for (var i = 0; i < reveals.length; i++) {
@@ -41,7 +41,7 @@ export default function Bio() {
                   }
                 }
 
-                function fox() {
+                async function fox() {
                   var reveals = document.querySelectorAll(".rightAnim");
                 
                   for (var i = 0; i < reveals.length; i++) {
@@ -57,7 +57,7 @@ export default function Bio() {
                   }
                 }
 
-                function panda() {
+                async function panda() {
                   var reveals = document.querySelectorAll(".roll");
                 
                   for (var i = 0; i < reveals.length; i++) {
@@ -73,7 +73,7 @@ export default function Bio() {
                   }
                 }
 
-                function siyaal() {
+                async function siyaal() {
                   var reveals = document.querySelectorAll(".siyaal");
                 
                   for (var i = 0; i < reveals.length; i++) {
