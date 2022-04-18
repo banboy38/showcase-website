@@ -22,7 +22,7 @@ export const Paper = styled.div`
 
     min-height : 100vh;
 
-    @media (max-width: 740px) {
+    @media (max-width: 768px) {
         margin-top: 47vh;
         padding-bottom : 9em;
         font-size : 1.875rem;
@@ -139,7 +139,7 @@ export const CenterContainer = styled.div`
     }
     }
 
-    @media(max-width:740px){
+    @media(max-width:767px){
         display : block;
     }
 `
