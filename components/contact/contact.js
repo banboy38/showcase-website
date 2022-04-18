@@ -33,6 +33,7 @@ export default function Contact() {
                         <li className="m-4"><div className="underline underline-offset-5 mb-[-35px]">Mobile</div> <br/> +91 9971380184 <br/> +91 7544894946 </li>
                         <li className="m-4"><div className="underline underline-offset-5 mb-[-35px]">Email</div> <br/> nabovtl@gmail.com <br/> dotanoob38@gmail.com</li>
                         <li className="m-4"><div className="underline underline-offset-5 mb-[-35px]">LinkedIn</div> <br/> <Link href="https://www.linkedin.com/in/anirban-aditya-halder/"><a  target="_blank" >www.linkedin.com/in/anirban-aditya-halder/</a></Link></li>
+                        <li className="m-4"><div className="underline underline-offset-5 mb-[-35px]">Github</div> <br/> <Link href="https://github.com/banboy38"><a  target="_blank" >github.com/banboy38</a></Link></li>
 
                     </ul>
                     
