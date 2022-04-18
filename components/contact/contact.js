@@ -18,7 +18,7 @@ export default function Contact() {
             <>
                 <div id="contact" style={{fontSize : "1.6em", paddingBottom : "15vh"}} className="break-words parallaxDiv bg-[url(/flowerspink.png)] md:bg-[url(/sakura.png)]">
 
-                    <div className="text-center m-3 text-6xl">
+                    <div className="text-center m-6 text-6xl">
                         Contact
                     </div>
                     <div className="grid justify-items-center">
