@@ -14,7 +14,7 @@ box-shadow: inset 0 0 1em 1px black;
 
 min-height: 30em;
 
-background-image : url('./creepystick.png');
+// background-image : url('./creepystick.png');
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;

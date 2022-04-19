@@ -29,7 +29,7 @@ export default function Parallax(props){
    
         return (
             <>
-                <Pparallax id="skills" className="break-words">
+                <Pparallax id="skills" className="bg-[url(/creepystick.png)] break-words">
                     {/* <div id = "khali"> */}
                         
                         <p className="text-6xl">Well then, this is the <Shine><Red>Skills</Red></Shine> section 📈</p>

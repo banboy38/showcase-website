@@ -16,7 +16,7 @@ box-shadow: inset 0 0 2em 2px black;
 
 min-height: 30em;
 
-background-image : url('./street.png');
+// background-image : url('./street.png');
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
