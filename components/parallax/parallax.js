@@ -88,7 +88,7 @@ export default function Parallax(props){
                       {/* <p className="mt-[15px]">🥲</p> */}
                   </div>
 
-                  <div className="text-2xl mt-[2em]"><Shine><Red>~"But Always Better than the Master of One"</Red></Shine></div>
+                  <div className="text-2xl mt-[1em]"><Shine><Red>~"But Always Better than the Master of One"</Red></Shine></div>
                 </div>
                                 
             </>
