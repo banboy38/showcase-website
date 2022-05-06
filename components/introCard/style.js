@@ -13,7 +13,7 @@ export const Paper = styled.div`
     line-height: 2.5rem; 
 
     margin: 1.5rem;
-    margin-top : 3.7em;
+    margin-top : 3em;
 
     
     

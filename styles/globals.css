@@ -4,7 +4,7 @@
 
 html,
 body {
-  font-weight : 300;
+  font-weight : 500;
   
   background-image: url("../public/flower.png");
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ a {
   /* margin-top : 4.3em; */
   padding : 0.8em;
   padding-top : 2.3em;
-  padding-bottom : 45vh;
+  /* padding-bottom : 45vh; */
 
   font-size: 2.25rem; 
   line-height: 2.5rem; 

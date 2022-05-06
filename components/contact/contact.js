@@ -16,7 +16,7 @@ export default function Contact() {
     if(didMount){
         return (
             <>
-                <div id="contact" style={{fontSize : "1.6em", paddingBottom : "15vh"}} className="break-words parallaxDiv bg-[url(/flowerspink.png)] md:bg-[url(/sakura.png)]">
+                <div id="contact" style={{fontSize : "1.6em", paddingBottom : "20vh"}} className="break-words parallaxDiv bg-[url(/flowerspink.png)] md:bg-[url(/sakura.png)]">
 
                     <div className="text-center m-5 text-6xl">
                         Contact
