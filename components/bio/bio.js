@@ -97,7 +97,7 @@ export default function Bio() {
                 }
               `}</Script>
 
-              <div id = "background" className=" break-words parallaxDiv bg-[url(/butterfly.png)]">
+              <div id = "background" style={{paddingBottom:"4em"}} className=" break-words parallaxDiv bg-[url(/butterfly.png)]">
                 
                 <div className="textAnim text-2xl md:text-4xl text-center mt-[26vh] mb-[2em]">お前はもう<Yang>死</Yang>んでいる
                   <div className="mt-3 text-5xl md:text-6xl">Background</div>

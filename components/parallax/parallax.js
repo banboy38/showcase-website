@@ -32,7 +32,7 @@ export default function Parallax(props){
                 <Pparallax id="skills" className="bg-[url(/creepystick.png)] break-words">
                     {/* <div id = "khali"> */}
                         
-                        <p className="text-6xl">Well then, this is the <Shine><Red>Skills</Red></Shine> section 📈</p>
+                        <p className="text-5xl md:text-6xl">Well then, this is the <Shine><Red>Skills</Red></Shine> section 📈</p>
                         
                         <p className="mt-4">See, I can make <Shine>isomorphic glass cards</Shine>, wild <Shine>animations and transitions</Shine>, weird <Shine>onHover sound queues</Shine> among many other <Red>bamboozling effects.</Red></p> 
                         <p>But I'm not gonna waste your time with my <Red>brilliance</Red>, I'll just make an <Red>impractically long list</Red> of my <Red>useful/useless</Red> <Red>skills</Red> and a <Red>progress bar</Red> for each. 🙂</p>
@@ -81,10 +81,10 @@ export default function Parallax(props){
                     {/* </div> */}
                 </Pparallax>
 
-                <div style = {{textAlign:"center"}} className = "flex-column justify-center mt-[30vh] mb-[65vh] p-2 text-6xl">
+                <div style = {{textAlign:"center"}} className = "flex-column justify-center mt-[30vh] mb-[65vh] p-2 text-5xl md:text-6xl">
                   <div className="flex flex-col m-2">
                       <p >As you can see, I'm the epitome of the saying</p>
-                      <Red className="mt-[0.3em] portrait:mt-[1em]">"Jack of all Trades, Master of None."</Red>
+                      <Red className="mt-[0.3em] portrait:mt-[0.7em]">"Jack of all Trades, Master of None."</Red>
                       {/* <p className="mt-[15px]">🥲</p> */}
                   </div>
 
