@@ -14,7 +14,7 @@ line-height: 2.5rem;
 
 box-shadow: inset 0 0 2em 2px black;
 
-min-height: 30em;
+min-height: 100vh;
 
 // background-image : url('./street.png');
 background-attachment: fixed;
