@@ -77,17 +77,18 @@ a {
   background: transparent;
 }
 .chld {
-  clip-path: ellipse(50% 90% at 7% 0%);
+  clip-path:ellipse(44% 72% at -1% 0%);
+
+
   transition: all .2s ease-out;
 
   @media (max-width:767px) {
     clip-path: circle(87% at 0 0);
   }
 }
-.prnt2:hover .chld {
-  
-  
-  clip-path: ellipse(93% 99% at 40% 77%);
+.prnt2:hover .chld {  
+  clip-path: ellipse(99% 64% at 49% 50%);
+
   z-index: 2;
   
   @media (max-width:767px) {

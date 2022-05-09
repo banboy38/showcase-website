@@ -19,7 +19,7 @@ export const Container = styled.div`
     background-color: rgba(255, 0, 102, 0.17);
 
     border-radius : 0.5em;
-    min-height : 5em;
+    min-height : 7em;
 
 
     // box-shadow : 0 0 2em rgba(236, 72, 153, 0.2), inset 0 0 4em rgba(255,255,255, 0.05);
