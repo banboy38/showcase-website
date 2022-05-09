@@ -9,7 +9,7 @@ padding : 0.8em;
 padding-top : 2.3em;
 padding-bottom : 3em;
 
-font-size: 2.25rem; 
+font-size: 1.75rem; 
 line-height: 2.5rem; 
 
 box-shadow: inset 0 0 2em 2px black;

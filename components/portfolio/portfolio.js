@@ -53,8 +53,8 @@ export default function Portfolio(props){
                 <Parallax id="portfolio" className="bg-[url(/street.png)]">
                     <div id="oo" className="mt-2">
                     {/* w-[100%] md:w-[50%] */}
-                        <div className=" text-left text-3xl md:text-[2.25rem] backdrop-brightness-[0.6] backdrop-blur-[5px] backdrop-saturate-200  rounded-3xl p-6 " style={{boxShadow : "0 0 2em rgba(236, 72, 153, 0.0), inset 0 0 4em rgba(255,255,255, 0.00)", backgroundColor : 'rgba(255, 0, 102, 0.17)'}} >
-                            <p className="text-5xl md:text-6xl">Welcome to the <Pink><Shine>Portfolio</Shine></Pink> section 🎨</p> 
+                        <div className=" text-left backdrop-brightness-[0.6] backdrop-blur-[5px] backdrop-saturate-200  rounded-3xl p-6 " style={{boxShadow : "0 0 2em rgba(236, 72, 153, 0.0), inset 0 0 4em rgba(255,255,255, 0.00)", backgroundColor : 'rgba(255, 0, 102, 0.17)'}} >
+                            <p className="text-5xl md:text-6xl font-extrabold">Welcome to the <Pink>Portfolio</Pink> section 🎨</p> 
                             <p className="mt-4">As I said a while ago, here's an <Shine>isomorphic glass card</Shine> made completely using <Pink>Tailwind CSS.</Pink></p>
                             <p>Now this <Pink>may not render</Pink> in <Pink>Mozilla Firefox</Pink> because this is <Pink>some experimental shit.</Pink></p>
                             <p>But trust me bro, it <Pink>actually exists.</Pink></p>
@@ -66,7 +66,7 @@ export default function Portfolio(props){
                     {/* <div className="flex justify-center mt-[4em] mb-[5px]"><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./pinkArrow.png"/></div> */}
                     {/* <div className="mt-[6em] mb[5px] w-full bg-pink-900 h-1 rounded-full"></div> */}
                     
-                    <div className="textAnim mt-[2.4em] mb-[2em] text-5xl md:text-6xl text-center">
+                    <div className="textAnim font-extrabold mt-[2.4em] mb-[2em] text-5xl md:text-6xl text-center">
                         My <Pink><>Projects</></Pink>
                     </div>
 

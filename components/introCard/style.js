@@ -9,7 +9,7 @@ export const Paper = styled.div`
 
     background-color : transparent;
 
-    font-size: 2.25rem; 
+    font-size: 1.75rem; 
     line-height: 2.5rem; 
 
     margin: 1.5rem;
@@ -20,7 +20,7 @@ export const Paper = styled.div`
     margin-bottom : 5em;
     // padding-bottom : 2.5em;
 
-    min-height : 100vh;
+    min-height : 120vh;
 
     @media (max-width: 768px) {
         margin-top: 47vh;
