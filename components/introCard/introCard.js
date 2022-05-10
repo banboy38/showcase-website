@@ -39,7 +39,7 @@ export default function IntroCard() {
       return(
         <>
           <Paper className="break-words">
-            <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[5em] mb-4"><span style={{"color":"red"}}>Hemlo</span> there!<br/><Red>こんにちは</Red></HelloHead>
+            <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[2.2em] mb-4"><span style={{"color":"red"}}>Hemlo</span> there!<br/><Red>こんにちは</Red></HelloHead>
             
             <TypedTextOne >I&apos;m <span style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
             <TypedTextTwo>And this is my <span style = {{"color":"red", }}>dreadful excuse</span> of a webpage made using <Highlight > [Next.Js] </Highlight></TypedTextTwo>
