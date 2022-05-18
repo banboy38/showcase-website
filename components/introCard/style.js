@@ -10,7 +10,7 @@ export const Paper = styled.div`
     background-color : transparent;
 
     font-size: 1.75rem; 
-    line-height: 2.5rem; 
+    line-height: 2rem; 
 
     margin: 1.5rem;
     margin-top : 3em;
