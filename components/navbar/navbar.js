@@ -48,7 +48,7 @@ export default function Navbar() {
           <Link href="#background"><MenuButton >Background</MenuButton></Link>
           <Link href="#contact"><MenuButton >Contact</MenuButton></Link>
 
-          <div onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="col-start-6 z-[1] col-end-7 items-center md:hidden flex justify-end"><MenuOutlinedIcon/></div>
+          {/* <div className="col-start-6 z-[1] col-end-7 items-center md:hidden flex justify-end"><MenuOutlinedIcon/></div> */}
           
         </Bar>
         
