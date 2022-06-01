@@ -223,3 +223,14 @@ a {
   background: #555;
 }
 
+/* ======================================== */
+
+::-moz-selection { /* Code for Firefox */
+  color: #121212;
+  background: #F2F2F2;
+}
+
+::selection {
+  color: #121212;
+  background: #F2F2F2;
+}
