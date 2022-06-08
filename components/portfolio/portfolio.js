@@ -96,7 +96,7 @@ export default function Portfolio(props){
                         <a target = "_blank" href="https://hack-a-duck.psyberduck.com/" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Hack-A-Duck 2.0</div>
-                            <div className="fun text-2xl md:text-[0.625em] m-3">Developed the website for Hack-A-Duck, the premier hackathon organized by Psyberduck in collaboration with IET, BIT Mesra. It was an attempt to make something unique, wacky and aesthetic. Glad it was a success 😎.</div>
+                            <div className="fun text-2xl md:text-[0.625em] m-3">Developed the website for <Pink>Hack-A-Duck</Pink>, the premier hackathon organized by <Pink>Psyberduck in collaboration with IET, BIT Mesra.</Pink> It was an attempt to make something unique, wacky and aesthetic. Glad it was a success 😎.</div>
                           </Container>
                         </a>
                         <a href="/#" className="prnt2">
