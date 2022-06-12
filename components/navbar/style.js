@@ -84,6 +84,7 @@ export const Logo = styled.img`
 `
 
 export const MenuButton = styled.a`
+    cursor: pointer;
     outline : none;
     // background-color : #0d0d0d;
     padding-top : 0.3em;
