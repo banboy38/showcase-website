@@ -10,7 +10,7 @@ padding-bottom : 3em;
 font-size: 1.75rem; 
 line-height: 2rem; 
 
-box-shadow: inset 0 0 1em 1px black;
+box-shadow: inset 0 0 5px 0 black;
 
 min-height: 30em;
 
