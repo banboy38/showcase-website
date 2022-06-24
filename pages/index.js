@@ -1,13 +1,6 @@
-import reactDom from "react-dom";
-import react, { useEffect, useState } from "react";
-import styled from "styled-components";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import Parallax from "../components/parallax/parallax";
-// import GlassPanel from "../components/glassPanel/glassPanel";
 import Navbar from "../components/navbar/navbar";
 import IntroCard from "../components/introCard/introCard";
-import { Red, Shine } from "../components/parallax/style";
 import Portfolio from "../components/portfolio/portfolio";
 import Bio from "../components/bio/bio"
 import Contact from "../components/contact/contact";
@@ -75,13 +68,14 @@ export default function Welcome(){
     //   }
     // }
       
-    
+  const description = "Hemlo there! \nこんにちは \nI'm Anirban Aditya Halder, the God of Pessimism ❤️ \nAnd this is my dreadful excuse of a webpage made using [Next.Js] \nWell, it's mostly [React.Js] but nevermind 🤙🏻"
 
     return(
             <>  <Head>
                   <title>
                     Anirban Aditya Halder
                   </title>
+                  <meta name="description" content={description} />
                 </Head>
                 <Navbar/>              
                 <IntroCard/>
