@@ -111,7 +111,7 @@ export const MenuButton = styled.a`
     }
 
     // transition : display 1s ease-in-out;
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         display : none;
       }
 
