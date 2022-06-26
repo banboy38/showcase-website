@@ -72,7 +72,7 @@ export default function Portfolio(props){
 
                     <div className="textAnim prnt mt-[0em] p-1 rounded-[0.5em] grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-2 ">
 
-                        <a target = "_blank" href="https://github.com/banboy38/Cosmic" className="prnt2">
+                        <a target = "_blank" href="http://tidbits.rf.gd" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Tidbits</div>
                             <div className="fun text-2xl md:text-[0.625em] m-3">This unholy mess of <Pink>PHP, HTML,CSS and SQL</Pink> was the first site I developed. Just an ordinary blogging website with an extraordinarily confusing backend in Vanilla PHP.</div>
@@ -87,22 +87,22 @@ export default function Portfolio(props){
                             <div className="fun text-2xl md:text-[0.625em] m-3">A simple content management site for <Pink>BIT Mesra batch of 23'</Pink>. The authentication part is <Pink>significantly stronger</Pink> than the previous project, apart from other <Pink>improvements</Pink> in backend. Same stack though.</div>
                           </Container>
                         </a>
-                        <a target = "_blank" href="https://github.com/banboy38/banboy38.github.io" className="prnt2">
+                        <a target = "_blank" href="https://banboy38.github.io/" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Previous Portfolio</div>
                             <div className="fun text-2xl md:text-[0.625em] m-3">Here's my previous portfolio site from 3 years ago when I wasn't the <Pink>God of Pessimism</Pink> yet. So naturally, it's complete and utter shit.</div>
                           </Container>
                         </a>
-                        <a target = "_blank" href="https://hack-a-duck.psyberduck.com/" className="prnt2">
+                        <a target = "_blank" href="https://hackaduck.vercel.app/" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Hack-A-Duck 2.0</div>
                             <div className="fun text-2xl md:text-[0.625em] m-3">Developed the website for <Pink>Hack-A-Duck</Pink>, the premier hackathon organized by <Pink>Psyberduck in collaboration with IET, BIT Mesra.</Pink> It was an attempt to make something unique, wacky and aesthetic. Glad it was a success 😎.</div>
                           </Container>
                         </a>
-                        <a href="/#" className="prnt2">
+                        <a target = "_blank" href="https://devsdungeon.vercel.app/" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Devs Dungeon</div>
-                            <div className="fun text-2xl md:text-[0.625em] m-3">Developed the community website for <Pink>DevsDungeon.</Pink> Was already provided a design template for this one and couldn't improvise much, so it's quite <Pink>drab</Pink></div>
+                            <div className="fun text-2xl md:text-[0.625em] m-3">Developed the community website for <Pink>DevsDungeon.</Pink> Was already provided a design template for this one and couldn't improvise much, so it's quite <Pink>drab.</Pink></div>
                           </Container>
                         </a>
                         <a href="/#" className="prnt2">
