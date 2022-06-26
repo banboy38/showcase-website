@@ -93,13 +93,13 @@ export default function Portfolio(props){
                             <div className="fun text-2xl md:text-[0.625em] m-3">Here's my previous portfolio site from 3 years ago when I wasn't the <Pink>God of Pessimism</Pink> yet. So naturally, it's complete and utter shit.</div>
                           </Container>
                         </a>
-                        <a target = "_blank" href="https://hackaduck.vercel.app/" className="prnt2">
+                        <a target = "_blank" href="https://hackaduck.anirbanhalder.social/" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Hack-A-Duck 2.0</div>
                             <div className="fun text-2xl md:text-[0.625em] m-3">Developed the website for <Pink>Hack-A-Duck</Pink>, the premier hackathon organized by <Pink>Psyberduck in collaboration with IET, BIT Mesra.</Pink> It was an attempt to make something unique, wacky and aesthetic. Glad it was a success 😎.</div>
                           </Container>
                         </a>
-                        <a target = "_blank" href="https://devsdungeon.vercel.app/" className="prnt2">
+                        <a target = "_blank" href="https://devsdungeon.anirbanhalder.social/" className="prnt2">
                           <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">Devs Dungeon</div>
                             <div className="fun text-2xl md:text-[0.625em] m-3">Developed the community website for <Pink>DevsDungeon.</Pink> Was already provided a design template for this one and couldn't improvise much, so it's quite <Pink>drab.</Pink></div>
