@@ -101,6 +101,12 @@ export default function Portfolio(props){
                         </a>
                         <a href="/#" className="prnt2">
                           <Container className="chld" >
+                            <div className="text-2xl md:text-[1em]">Devs Dungeon</div>
+                            <div className="fun text-2xl md:text-[0.625em] m-3">Developed the community website for <Pink>DevsDungeon.</Pink> Was already provided a design template for this one and couldn't improvise much, so it's quite <Pink>drab</Pink></div>
+                          </Container>
+                        </a>
+                        <a href="/#" className="prnt2">
+                          <Container className="chld" >
                             <div className="text-2xl md:text-[1em]">This Site</div>
                             <div className="fun text-2xl md:text-[0.625em] m-3">I started off with a React project, then later ended up making a <Pink>NextJs App along with TailwindCSS and Styled Components.</Pink><br/><Pink>Ggwp.</Pink></div>
                           </Container>
