@@ -68,7 +68,7 @@ export default function Welcome(){
     //   }
     // }
       
-  const description = "Hemlo there! \nこんにちは \nI'm Anirban Aditya Halder, the God of Pessimism ❤️ \nAnd this is my dreadful excuse of a webpage made using [Next.Js] \nWell, it's mostly [React.Js] but nevermind 🤙🏻"
+  const description = "Hemlo there! I'm Anirban Aditya Halder, the God of Pessimism ❤️. And this is my dreadful excuse of a webpage made using Next.Js. Well, it's mostly React.Js but nevermind 🤙🏻"
 
     return(
             <>  <Head>
@@ -76,6 +76,7 @@ export default function Welcome(){
                     Anirban Aditya Halder
                   </title>
                   <meta name="description" content={description} />
+                  <html lang="en" />
                 </Head>
                 <Navbar/>              
                 <IntroCard/>
