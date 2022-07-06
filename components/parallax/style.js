@@ -8,7 +8,7 @@ padding-top : 3.2em;
 padding-bottom : 3em;
 
 font-size: 1.75rem; 
-line-height: 2rem; 
+line-height: 2.5rem; 
 
 box-shadow: inset 0 0 5px 0 black;
 

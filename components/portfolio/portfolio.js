@@ -53,7 +53,7 @@ export default function Portfolio(props){
                 <Parallax id="portfolio" className="bg-[url(/street.png)]">
                     <div id="oo" className="mt-2">
                     {/* w-[100%] md:w-[50%] */}
-                        <div className=" text-left backdrop-brightness-[0.6] backdrop-blur-[5px] backdrop-saturate-200 sm:mt-10 rounded-3xl p-6 " style={{boxShadow : "0 0 2em rgba(236, 72, 153, 0.0), inset 0 0 4em rgba(255,255,255, 0.00)", backgroundColor : 'rgba(255, 0, 102, 0.17)'}} >
+                        <div className=" text-left backdrop-brightness-[0.6] backdrop-blur-[5px] backdrop-saturate-150 sm:mt-10 rounded-3xl p-6 " style={{boxShadow : "0 0 2em rgba(236, 72, 153, 0.0), inset 0 0 4em rgba(255,255,255, 0.00)", backgroundColor : 'rgba(255, 0, 102, 0.17)'}} >
                             <p className="text-5xl md:text-6xl font-extrabold">Welcome to the <Pink>Portfolio</Pink> section 🎨</p> 
                             <p className="mt-4">As I said a while ago, here's an <Shine>isomorphic glass card</Shine> made completely using <Pink>Tailwind CSS.</Pink></p>
                             <p>Now this <Pink>may not render</Pink> in <Pink>Mozilla Firefox</Pink> because this is <Pink>some experimental shit.</Pink></p>

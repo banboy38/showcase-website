@@ -47,7 +47,7 @@ export default function IntroCard() {
             
 
             <Link passHref href="#skills">
-            <CenterContainer className="text-6xl font-extrabold m-4 text-center cursor-pointer">
+            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center cursor-pointer">
               <div className="m-2 animate-pulse" style = {{"color":"red", }}>Glhf</div>
               <div className="m-2 ">lezgo</div>
               <div className="flex justify-center mt-[20px]"><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./downArrow.png"/></div>
