@@ -20,7 +20,7 @@ export const Bar = styled.div`
     color : white;
 
     background-color : transparent;
-    opacity : 0.5;
+    opacity : 0.9;
 
     border-style : solid;
     border-width : 0.1em;
@@ -30,9 +30,9 @@ export const Bar = styled.div`
     border-right : none;
     border-left : none;
     
-    // transition : border 1.125s linear;
+    // transition : opacity 5s ease-in-out;
     &:hover{
-      opacity : 0.9;
+      opacity : 1;
       box-shadow: 0 0 0.3px white ;
     //   border-radius : 0em;
     //   clip-path: inset(0 10px 0 10px);
@@ -42,7 +42,7 @@ export const Bar = styled.div`
 
     @keyframes blink{
         0% {
-            opacity : 0.5;
+            opacity : 0.9;
         }
 
         50% {
@@ -51,12 +51,12 @@ export const Bar = styled.div`
         }
 
         100% {
-            opacity : 0.5
+            opacity : 0.9;
         }
 
     }
 
-    transition : border 0.8s linear;
+    transition : border 0.8s linear, opacity 0.5s ease-in-out;
     z-index: 50;
     @media (max-width: 768px) {
         // position : fixed;

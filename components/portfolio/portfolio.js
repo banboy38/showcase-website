@@ -66,8 +66,8 @@ export default function Portfolio(props){
                     {/* <div className="flex justify-center mt-[4em] mb-[5px]"><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./pinkArrow.png"/></div> */}
                     {/* <div className="mt-[6em] mb[5px] w-full bg-pink-900 h-1 rounded-full"></div> */}
                     
-                    <div className="textAnim font-extrabold mt-[2.4em] mb-[2em] text-5xl md:text-6xl text-center">
-                        My <Pink><>Projects</></Pink>
+                    <div className="textAnim font-extrabold mt-[2.4em] mb-[2em] text-5xl md:text-6xl text-center ">
+                        <span className="md:hover:tracking-wider duration-300">My <Pink><>Projects</></Pink></span>
                     </div>
 
                     <div className="textAnim prnt mt-[0em] p-1 rounded-[0.5em] grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-2 ">

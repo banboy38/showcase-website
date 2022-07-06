@@ -40,7 +40,7 @@ export default function Navbar() {
         `}</Script>
 
 
-        <Bar id = "main" onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="break-words text-base">
+        <Bar id = "main" onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="break-words text-base backdrop-blur-[7px]">
           <Logo className="hover:animate-pulse" src = "/tron.png"/>
           <Link href="/#"><MenuButton >Home</MenuButton></Link>
           <Link href="#skills"><MenuButton >Skills</MenuButton></Link>

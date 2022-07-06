@@ -39,17 +39,17 @@ export default function IntroCard() {
       return(
         <>
           <Paper className="break-words">
-            <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[2.2em] mb-4"><span style={{"color":"red"}}>Hemlo</span> there!<br/><Red>こんにちは</Red></HelloHead>
+            <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[2.2em] mb-4 md:hover:tracking-wider duration-300"><span style={{"color":"red"}}>Hemlo</span> there!<br/><Red>こんにちは</Red></HelloHead>
             
-            <TypedTextOne >I&apos;m <span style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
+            <TypedTextOne >I&apos;m <span className="text-4xl font-bold" style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
             <TypedTextTwo>And this is my <span style = {{"color":"red", }}>dreadful excuse</span> of a webpage made using <Highlight > [Next.Js] </Highlight></TypedTextTwo>
             <TypedTextThree>Well, it&apos;s mostly <HighlightTwo>[React.Js]</HighlightTwo> but <span style = {{"color":"red", }}>nevermind <span className="text-[0.8em]">🤙🏻</span></span></TypedTextThree>
             
 
             <Link passHref href="#skills">
-            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center cursor-pointer">
-              <div className="m-2 animate-pulse" style = {{"color":"red", }}>Glhf</div>
-              <div className="m-2 ">lezgo</div>
+            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center cursor-pointer md:hover:tracking-wider duration-300">
+              <h1 className="m-2 animate-pulse" style = {{"color":"red", }}>Glhf</h1>
+              <h1 className="m-2 ">lezgo</h1>
               <div className="flex justify-center mt-[20px]"><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./downArrow.png"/></div>
             </CenterContainer>          
             </Link>     

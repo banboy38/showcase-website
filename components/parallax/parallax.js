@@ -84,11 +84,11 @@ export default function Parallax(props){
                 <div style = {{textAlign:"center"}} className = "flex-column justify-center mt-[30vh] mb-[65vh] p-2 font-extrabold text-5xl md:text-6xl">
                   <div className="flex flex-col m-2">
                       <p >As you can see, I'm the epitome of the saying</p>
-                      <Red className="mt-[0.4em] portrait:mt-[0.7em]">"Jack of all Trades, Master of None."</Red>
+                      <Red className="mt-[0.4em] portrait:mt-[0.7em] md:hover:tracking-wider duration-300">"Jack of all Trades, Master of None."</Red>
                       {/* <p className="mt-[15px]">🥲</p> */}
                   </div>
 
-                  <div className="text-2xl mt-[1em]"><Red>~"But Always Better than the Master of One"</Red></div>
+                  <div className="text-2xl mt-[1em] md:hover:tracking-wider duration-300"><Red>~"But Always Better than the Master of One"</Red></div>
                 </div>
                                 
             </>
