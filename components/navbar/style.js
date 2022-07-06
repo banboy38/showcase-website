@@ -92,11 +92,12 @@ export const MenuButton = styled.a`
     border-color : red;
     text-align : center;
 
-    transition : font-weight 0.3s;
+    transition : letter-spacing 0.3s;
     // transition : font-weight 0.35s;
 
     &:hover{
         font-weight: 600;
+        letter-spacing: 0.05em;
         // font-size : 1.03em;
         // background-color : #150000;
 

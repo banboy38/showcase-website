@@ -47,10 +47,10 @@ export default function IntroCard() {
             
 
             <Link passHref href="#skills">
-            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center cursor-pointer md:hover:tracking-wider duration-300">
-              <h1 className="m-2 animate-pulse" style = {{"color":"red", }}>Glhf</h1>
-              <h1 className="m-2 ">lezgo</h1>
-              <div className="flex justify-center mt-[20px]"><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./downArrow.png"/></div>
+            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center md:hover:tracking-wider duration-300">
+              <h1 className="m-2 animate-pulse cursor-pointer " style = {{"color":"red", }}>Glhf</h1>
+              <h1 className="m-2 cursor-pointer ">lezgo</h1>
+              <div className="flex justify-center mt-[20px] cursor-pointer "><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./downArrow.png"/></div>
             </CenterContainer>          
             </Link>     
             

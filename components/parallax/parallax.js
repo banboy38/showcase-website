@@ -18,7 +18,7 @@ export default function Parallax(props){
     function ProgressBar(props) {
         return(
             <>
-                <div className="mb-4 hover:scale-[1.0125] bg-red-300 h-4 rounded-full opacity-70 hover:opacity-100 md:w-6/12"> <div className="bg-red-700 h-4 rounded-full" style={{width: props.val + "%"}}></div></div>
+                <div className="mb-4 hover:scale-[1.025] duration-300 bg-red-300 h-4 rounded-full opacity-70 hover:opacity-100 md:w-6/12 cursor-pointer"> <div className="bg-red-700 h-4 rounded-full" style={{width: props.val + "%"}}></div></div>
             </>
         )
     }
@@ -84,7 +84,7 @@ export default function Parallax(props){
                 <div style = {{textAlign:"center"}} className = "flex-column justify-center mt-[30vh] mb-[65vh] p-2 font-extrabold text-5xl md:text-6xl">
                   <div className="flex flex-col m-2">
                       <p >As you can see, I'm the epitome of the saying</p>
-                      <Red className="mt-[0.4em] portrait:mt-[0.7em] md:hover:tracking-wider duration-300">"Jack of all Trades, Master of None."</Red>
+                      <Red className="mt-[0.4em] portrait:mt-[0.7em]">"Jack of all Trades, Master of None."</Red>
                       {/* <p className="mt-[15px]">🥲</p> */}
                   </div>
 
