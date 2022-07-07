@@ -50,7 +50,7 @@ export default function Portfolio(props){
                 </Script>
 
             
-                <Parallax id="portfolio" className="bg-[url(/street.png)]">
+                <Parallax id="portfolio" className="bg-[url(/street.jpg)]">
                     <div id="oo" className="mt-2">
                     {/* w-[100%] md:w-[50%] */}
                         <div className=" text-left backdrop-brightness-[0.6] backdrop-blur-[5px] backdrop-saturate-150 sm:mt-10 rounded-3xl p-6 " style={{boxShadow : "0 0 2em rgba(236, 72, 153, 0.0), inset 0 0 4em rgba(255,255,255, 0.00)", backgroundColor : 'rgba(255, 0, 102, 0.17)'}} >
