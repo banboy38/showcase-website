@@ -35,7 +35,7 @@ export const Paper = styled.div`
     // }
 `
 
-export const HelloHead = styled.div`
+export const HelloHead = styled.h1`
     // overflow : visible;
     background-color : transparent;
     opacity : 0;
