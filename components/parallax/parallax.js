@@ -29,7 +29,7 @@ export default function Parallax(props){
    
         return (
             <>
-                <Pparallax id="skills" className="bg-[url(/creepystick.png)] break-words">
+                <Pparallax id="skills" className="bg-[url(/creepystick.png)] break-words select-none">
                     {/* <div id = "khali"> */}
                         
                         <p className="text-5xl md:text-6xl font-extrabold">Well then, this is the <Red className="cursor-pointer">Skills</Red> section 📈</p>
@@ -81,7 +81,7 @@ export default function Parallax(props){
                     {/* </div> */}
                 </Pparallax>
 
-                <div style = {{textAlign:"center"}} className = "flex-column justify-center mt-[30vh] mb-[65vh] p-2 font-extrabold text-5xl md:text-6xl">
+                <div style = {{textAlign:"center"}} className = "select-none flex-column justify-center mt-[30vh] mb-[65vh] p-2 font-extrabold text-5xl md:text-6xl">
                   <div className="flex flex-col gap-5 m-2">
                       <p >As you can see, I'm the epitome of the saying</p>
                       <span className="md:hover:tracking-wider duration-300 cursor-pointer">

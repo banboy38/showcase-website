@@ -38,7 +38,7 @@ export default function IntroCard() {
 
       return(
         <>
-          <Paper className="break-words">
+          <Paper className="break-words select-none">
             <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[2.2em] mb-4 "><span className="md:hover:tracking-widest duration-300 cursor-pointer" style={{"color":"red"}}>Hemlo</span> there!<br/><Red className="md:hover:tracking-widest cursor-pointer duration-300">こんにちは</Red></HelloHead>
             
             <TypedTextOne >I&apos;m <span className="text-4xl font-bold cursor-pointer" style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>

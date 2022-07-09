@@ -21,7 +21,7 @@ export default function Contact() {
                     <div className="font-extrabold text-center m-4 text-6xl cursor-pointer">
                         Contact
                     </div>
-                    
+
                     <div className="grid justify-items-center">
                         <hr width = "50%"/>
                     </div>

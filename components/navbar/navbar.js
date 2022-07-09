@@ -40,7 +40,7 @@ export default function Navbar() {
         `}</Script>
 
 
-        <Bar id = "main" onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="break-words text-base backdrop-blur-[2.2px]">
+        <Bar id = "main" onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="break-words select-none text-base backdrop-blur-[2.2px]">
           <Logo className="hover:animate-pulse" alt="Logo" src = "/tron.png"/>
           <Link href="/#"><MenuButton >Home</MenuButton></Link>
           <Link href="#skills"><MenuButton >Skills</MenuButton></Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
         </Bar>
         
         
-        <div id = "jhol" className="reveal passive w-[100%] z-[50] bg-[rgba(127,29,29,0)] rounded-md backdrop-brightness-[2] backdrop-blur-[5px]" >
+        <div id = "jhol" className="reveal select-none passive w-[100%] z-[50] bg-[rgba(127,29,29,0)] rounded-md backdrop-brightness-[2] backdrop-blur-[5px]" >
           <ExtraNav onClick={ ()=>{if(typeof window !== "undefined"){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } >
             <ExtraButton  href="/#">Home</ExtraButton>
             <ExtraButton  href="#skills">Skills</ExtraButton>
