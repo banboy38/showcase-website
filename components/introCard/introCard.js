@@ -39,16 +39,16 @@ export default function IntroCard() {
       return(
         <>
           <Paper className="break-words">
-            <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[2.2em] mb-4 md:hover:tracking-wider duration-300"><span style={{"color":"red"}}>Hemlo</span> there!<br/><Red>こんにちは</Red></HelloHead>
+            <HelloHead className="text-6xl font-extrabold mt-[-40vh] md:mt-[2.2em] mb-4 "><span className="md:hover:tracking-widest duration-300 cursor-pointer" style={{"color":"red"}}>Hemlo</span> there!<br/><Red className="md:hover:tracking-widest cursor-pointer duration-300">こんにちは</Red></HelloHead>
             
-            <TypedTextOne >I&apos;m <span className="text-4xl font-bold" style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
-            <TypedTextTwo>And this is my <span style = {{"color":"red", }}>dreadful excuse</span> of a webpage made using <Highlight > [Next.Js] </Highlight></TypedTextTwo>
+            <TypedTextOne >I&apos;m <span className="text-4xl font-bold cursor-pointer" style = {{"color":"red", }}>Anirban Aditya Halder</span>, the <Red>God of Pessimism</Red> ❤️</TypedTextOne>
+            <TypedTextTwo>And this is my <span style = {{"color":"red", }}>dreadful excuse</span> of a portfolio site made using <Highlight> [Next.Js] </Highlight></TypedTextTwo>
             <TypedTextThree>Well, it&apos;s mostly <HighlightTwo>[React.Js]</HighlightTwo> but <span style = {{"color":"red", }}>nevermind <span className="text-[0.8em]">🤙🏻</span></span></TypedTextThree>
             
 
             <Link passHref href="#skills">
-            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center md:hover:tracking-wider duration-300">
-              <div className="m-2 animate-pulse cursor-pointer " style = {{"color":"red", }}>Glhf</div>
+            <CenterContainer className="text-6xl font-extrabold m-4 mt-[24vh] text-center ">
+              <div className="m-2 animate-pulse cursor-pointer" style = {{"color":"red", }}>Glhf</div>
               <div className="m-2 cursor-pointer ">lezgo</div>
               <div className="flex justify-center mt-[20px] cursor-pointer "><img alt = "Red Down Arrow" className="animate-pulse" style = {{height:"0.7em", width:"0.7em"}} src="./downArrow.png"/></div>
             </CenterContainer>          

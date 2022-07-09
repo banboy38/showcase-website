@@ -32,7 +32,7 @@ export default function Parallax(props){
                 <Pparallax id="skills" className="bg-[url(/creepystick.png)] break-words">
                     {/* <div id = "khali"> */}
                         
-                        <p className="text-5xl md:text-6xl font-extrabold">Well then, this is the <Red>Skills</Red> section 📈</p>
+                        <p className="text-5xl md:text-6xl font-extrabold">Well then, this is the <Red className="cursor-pointer">Skills</Red> section 📈</p>
                         
                         <p className="mt-4">See, I can make <Shine>isomorphic glass cards</Shine>, wild <Shine>animations and transitions</Shine>, weird <Shine>onHover sound queues</Shine> among many other <Red>bamboozling effects.</Red></p> 
                         <p>But I'm not gonna waste your time with my <Red>brilliance</Red>, I'll just make an <Red>impractically long list</Red> of my <Red>useful/useless</Red> <Red>skills</Red> and a <Red>progress bar</Red> for each. 🙂</p>
@@ -82,13 +82,13 @@ export default function Parallax(props){
                 </Pparallax>
 
                 <div style = {{textAlign:"center"}} className = "flex-column justify-center mt-[30vh] mb-[65vh] p-2 font-extrabold text-5xl md:text-6xl">
-                  <div className="flex flex-col m-2">
+                  <div className="flex flex-col gap-5 m-2">
                       <p >As you can see, I'm the epitome of the saying</p>
-                      <Red className="mt-[0.4em] portrait:mt-[0.7em]">"Jack of all Trades, Master of None."</Red>
-                      {/* <p className="mt-[15px]">🥲</p> */}
+                      <span className="md:hover:tracking-wider duration-300 cursor-pointer">
+                        <Red className="mt-[0.4em] portrait:mt-[0.7em]">"Jack of all Trades, Master of None."</Red>               
+                        <div className="text-2xl mt-[1em] "><Red>~"But Always Better than the Master of One"</Red></div>
+                      </span>
                   </div>
-
-                  <div className="text-2xl mt-[1em] md:hover:tracking-wider duration-300"><Red>~"But Always Better than the Master of One"</Red></div>
                 </div>
                                 
             </>

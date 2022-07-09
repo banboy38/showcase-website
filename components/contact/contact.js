@@ -18,15 +18,13 @@ export default function Contact() {
             <>
                 <div id="contact" style={{fontSize : "1.6em", paddingTop : "2.7em",}} className="break-words parallaxDiv bg-[url(/flowerspink.png)] md:bg-[url(/sakura.jpg)]">
 
-                    <div className="font-extrabold text-center m-4 text-6xl">
+                    <div className="font-extrabold text-center m-4 text-6xl cursor-pointer">
                         Contact
                     </div>
+                    
                     <div className="grid justify-items-center">
-                    <hr width = "50%"/>
+                        <hr width = "50%"/>
                     </div>
-                    {/* <div className="mt-5 grid justify-items-center">
-                        <div className=" w-[40%] flex text-center "> <div className="grow basis-1/3">Mobile</div><div className="grow basis-1/3">:</div><div className="grow basis-1/3">9971380184</div> </div>
-                    </div> */}
 
                     <ul className="textAnim mt-[1em] text-center ">
 

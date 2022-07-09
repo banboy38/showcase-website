@@ -54,7 +54,7 @@ export default function Portfolio(props){
                     <div id="oo" className="mt-2">
                     {/* w-[100%] md:w-[50%] */}
                         <div className=" text-left backdrop-brightness-[0.6] backdrop-blur-[5px] backdrop-saturate-150 sm:mt-10 rounded-3xl p-6 " style={{boxShadow : "0 0 2em rgba(236, 72, 153, 0.0), inset 0 0 4em rgba(255,255,255, 0.00)", backgroundColor : 'rgba(255, 0, 102, 0.17)'}} >
-                            <p className="text-5xl md:text-6xl font-extrabold">Welcome to the <Pink>Portfolio</Pink> section 🎨</p> 
+                            <p className="text-5xl md:text-6xl font-extrabold">Welcome to the <Pink className="cursor-pointer">Portfolio</Pink> section 🎨</p> 
                             <p className="mt-4">As I said a while ago, here's an <Shine>isomorphic glass card</Shine> made completely using <Pink>Tailwind CSS.</Pink></p>
                             <p>Now this <Pink>may not render</Pink> in <Pink>Mozilla Firefox</Pink> because this is <Pink>some experimental shit.</Pink></p>
                             <p>But trust me bro, it <Pink>actually exists.</Pink></p>
@@ -67,7 +67,7 @@ export default function Portfolio(props){
                     {/* <div className="mt-[6em] mb[5px] w-full bg-pink-900 h-1 rounded-full"></div> */}
                     
                     <div className="textAnim font-extrabold mt-[2.4em] mb-[2em] text-5xl md:text-6xl text-center ">
-                        <span className="md:hover:tracking-wider duration-300">My <Pink><>Projects</></Pink></span>
+                        <span >My <Pink className="md:hover:tracking-widest cursor-pointer duration-300">Projects</Pink></span>
                     </div>
 
                     <div className="textAnim prnt mt-[0em] p-1 rounded-[0.5em] grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-2 ">
