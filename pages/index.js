@@ -75,6 +75,7 @@ export default function Welcome(){
                   <title>
                     Anirban Aditya Halder
                   </title>
+                  <link rel="canonical" href="https://www.anirbanhalder.social/" />
                   <meta name="description" content={description} />
                   <html lang="en" />
                 </Head>
