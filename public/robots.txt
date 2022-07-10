@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://anirbanhalder.social/
+
+# Sitemaps
+Sitemap: https://anirbanhalder.social/sitemap.xml
