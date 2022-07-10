@@ -86,8 +86,8 @@ export default function Welcome(){
                   <meta property="og:image" content="https://drive.google.com/file/d/1Kk4eFtBY3nLE_6pnR1TbeNU6_HC9qYg7/view?usp=sharing"/>
                   <meta property="og:url" content="http://www.anirbanhalder.social"/>
                   <meta name="twitter:card" content="https://drive.google.com/file/d/1Kk4eFtBY3nLE_6pnR1TbeNU6_HC9qYg7/view?usp=sharing"/>
-
                 </Head>
+
                 <Navbar/>              
                 <IntroCard/>
                 <Parallax/>
