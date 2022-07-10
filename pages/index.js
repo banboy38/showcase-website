@@ -79,6 +79,14 @@ export default function Welcome(){
                   <meta name="viewport" content="width=device-width, initial-scale=1"/>
                   <meta name="description" content={description} />
                   <html lang="en" />
+
+                  <meta property="og:title" content="Anirban Aditya Halder - Portfolio"/>
+                  <meta property="og:type" content="Portfolio Website" />
+                  <meta property="og:description" content={description}/>
+                  <meta property="og:image" content="https://drive.google.com/file/d/1Kk4eFtBY3nLE_6pnR1TbeNU6_HC9qYg7/view?usp=sharing"/>
+                  <meta property="og:url" content="http://www.anirbanhalder.social"/>
+                  <meta name="twitter:card" content="https://drive.google.com/file/d/1Kk4eFtBY3nLE_6pnR1TbeNU6_HC9qYg7/view?usp=sharing"/>
+
                 </Head>
                 <Navbar/>              
                 <IntroCard/>
