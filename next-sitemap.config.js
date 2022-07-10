@@ -1,4 +1,4 @@
-const siteUrl = "https://anirbanhalder.social/";
+const siteUrl = "https://www.anirbanhalder.social/";
 module.exports = {
   siteUrl,
   generateRobotsTxt: true,
