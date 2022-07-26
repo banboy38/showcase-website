@@ -5,6 +5,7 @@ import Portfolio from "../components/portfolio/portfolio";
 import Bio from "../components/bio/bio"
 import Contact from "../components/contact/contact";
 import Head from "next/head";
+import tron from '../public/tron.png'
 
 // const Navbar = dynamic(
 //     () => {
@@ -33,7 +34,7 @@ import Head from "next/head";
   //   { ssr: false }
   // )
 
-export default function Welcome(){
+export default function Welcome(props){
 
     // function navbar() {
     //   const [didMount, setDidMount] = useState(false)
@@ -68,6 +69,7 @@ export default function Welcome(){
     //   }
     // }
       
+  
   const description = "Hemlo there! I'm Anirban Aditya Halder, the God of Pessimism ❤️. And this is my dreadful excuse of a Portfolio made using Next.Js. Well, it's mostly React.Js but nevermind 🤙🏻"
 
     return(
@@ -88,7 +90,7 @@ export default function Welcome(){
                   <meta name="twitter:card" content="https://drive.google.com/file/d/1Kk4eFtBY3nLE_6pnR1TbeNU6_HC9qYg7/view?usp=sharing"/>
                 </Head>
 
-                <Navbar/>              
+                <Navbar logo = {props.logo}/>              
                 <IntroCard/>
                 <Parallax/>
                 <Portfolio/>
@@ -98,3 +100,11 @@ export default function Welcome(){
     )
 }
 
+
+export async function getStaticProps(context) {
+  return {
+    props: {
+      logo : tron
+    }, // will be passed to the page component as props
+  }
+}
