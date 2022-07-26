@@ -5,7 +5,6 @@ import Portfolio from "../components/portfolio/portfolio";
 import Bio from "../components/bio/bio"
 import Contact from "../components/contact/contact";
 import Head from "next/head";
-import tron from '../public/tron.png'
 
 // const Navbar = dynamic(
 //     () => {
@@ -90,7 +89,7 @@ export default function Welcome(props){
                   <meta name="twitter:card" content="https://drive.google.com/file/d/1Kk4eFtBY3nLE_6pnR1TbeNU6_HC9qYg7/view?usp=sharing"/>
                 </Head>
 
-                <Navbar logo = {props.logo}/>              
+                <Navbar/>              
                 <IntroCard/>
                 <Parallax/>
                 <Portfolio/>
@@ -98,13 +97,4 @@ export default function Welcome(props){
                 <Contact/>
             </>      
     )
-}
-
-
-export async function getStaticProps(context) {
-  return {
-    props: {
-      logo : tron
-    }, // will be passed to the page component as props
-  }
 }

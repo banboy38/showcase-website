@@ -1,4 +1,4 @@
-
+import tron from '../../public/tron.png'
 
 import React, {useState, useEffect} from "react"
 import {Bar, Logo, MenuButton, ExtraNav, ExtraButton, Search, SearchBtn} from "./style"
@@ -43,7 +43,7 @@ export default function Navbar(props) {
 
         <Bar id = "main" onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="break-words select-none text-base backdrop-blur-[2.2px]">
           {/* <Logo className="hover:animate-pulse" alt="Logo" src = {tron}/> */}
-          <div className="h-[2em] w-[2em] m-[0.1em] hover:animate-pulse"><Image alt="Logo" height={32} width={32} src={props.logo}/></div>
+          <div className="h-[2em] w-[2em] m-[0.1em] hover:animate-pulse"><Image alt="Logo" height={32} width={32} src={tron}/></div>
           <Link href="/#"><MenuButton >Home</MenuButton></Link>
           <Link href="#skills"><MenuButton >Skills</MenuButton></Link>
           <Link href="#portfolio"><MenuButton >Portfolio</MenuButton></Link>
