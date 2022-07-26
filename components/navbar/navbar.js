@@ -1,18 +1,22 @@
-import reactDom from "react-dom"
-import React, {useState, useEffect} from "react"
-import styled from "styled-components"
-import {Bar, Logo, MenuButton, ExtraNav, ExtraButton, Search, SearchBtn} from "./style"
-import Link from "next/link"
+import tron from '../../public/tron.png'
 
+import React, {useState, useEffect} from "react"
+import {Bar, Logo, MenuButton, ExtraNav, ExtraButton, Search, SearchBtn} from "./style"
+
+
+import Link from "next/link";
+import Image from "next/image";
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Button, Checkbox } from "@mui/material"
 
 import Script from 'next/script'
 
 
-export default function Navbar() {
+export default function Navbar(props) {
 
   const [didMount, setDidMount] = useState(false)
+
+  // console.log(props)
 
   useEffect(() => {        
     setDidMount(true)
@@ -39,16 +43,14 @@ export default function Navbar() {
 
         `}</Script>
 
-
         <Bar id = "main" onClick={ ()=>{if(typeof window !== "undefined" ){document.getElementById("jhol").classList.toggle("active"); document.getElementById("jhol").classList.toggle("passive"); }} } className="break-words select-none text-base backdrop-blur-[2.2px]">
-          <Logo className="hover:animate-pulse" alt="Logo" src = "/tron.png"/>
+          {/* <Logo className="hover:animate-pulse" alt="Logo" src = {tron}/> */}
+          <div className="h-[2em] w-[2em] m-[0.1em] hover:animate-pulse"><Image alt="Logo" height={32} width={32} src={tron}/></div>
           <Link href="/#"><MenuButton >Home</MenuButton></Link>
           <Link href="#skills"><MenuButton >Skills</MenuButton></Link>
           <Link href="#portfolio"><MenuButton >Portfolio</MenuButton></Link>
           <Link href="#background"><MenuButton >Background</MenuButton></Link>
           <Link href="#contact"><MenuButton >Contact</MenuButton></Link>
-
-          {/* <div className="col-start-6 z-[1] col-end-7 items-center md:hidden flex justify-end"><MenuOutlinedIcon/></div> */}
           
         </Bar>
         
@@ -66,3 +68,4 @@ export default function Navbar() {
     )
   }
 }
+
