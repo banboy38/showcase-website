@@ -93,6 +93,7 @@ export default function Welcome(props){
                 <IntroCard/>
                 <Parallax/>
                 <Portfolio/>
+                
                 <Bio/>
                 <Contact/>
             </>      
