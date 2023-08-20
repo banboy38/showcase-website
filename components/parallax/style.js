@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const Pparallax = styled.div`
 
 margin-top : 3.3em;
-padding : 0.8em;
-padding-top : 3.2em;
+padding : 1.5em;
+padding-top : 4em;
 padding-bottom : 3em;
 
-font-size: 1.75rem; 
-line-height: 2.5rem; 
+font-size: 1.5rem; 
+line-height: 2rem; 
 
 box-shadow: inset 0 0 5px 0 black;
 
@@ -21,8 +21,8 @@ background-repeat: no-repeat;
 background-size: cover;
 
 @media(max-width : 460px){
-    font-size : 1.875rem;
-    line-height: 2.25rem;
+    font-size : 1.5rem;
+    line-height: 2rem;
 }
 `
 

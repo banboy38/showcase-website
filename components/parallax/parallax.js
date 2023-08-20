@@ -34,8 +34,8 @@ export default function Parallax(props){
                         
                         <p className="text-5xl md:text-6xl font-extrabold">Well then, this is the <Red className="cursor-pointer">Skills</Red> section 📈</p>
                         
-                        <p className="mt-4">See, I can make <Shine>isomorphic glass cards</Shine>, wild <Shine>animations and transitions</Shine>, weird <Shine>onHover sound queues</Shine> among many other <Red>bamboozling effects.</Red></p> 
-                        <p>But I'm not gonna waste your time with my <Red>brilliance</Red>, I'll just make an <Red>impractically long list</Red> of my <Red>useful/useless</Red> <Red>skills</Red> and a <Red>progress bar</Red> for each. 🙂</p>
+                        <p className="mt-4 w-[90%]">See, I can make <Shine>isomorphic glass cards</Shine>, wild <Shine>animations and transitions</Shine>, weird <Shine>onHover sound queues</Shine> among many other <Red>bamboozling effects.</Red></p> 
+                        <p className="w-[90%]">But I'm not gonna waste your time with my <Red>brilliance</Red>, I'll just make an <Red>impractically long list</Red> of my <Red>useful/useless</Red> <Red>skills</Red> and a <Red>progress bar</Red> for each. 🙂</p>
                         
 
                         

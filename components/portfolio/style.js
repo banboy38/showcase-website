@@ -4,13 +4,13 @@ export const Parallax = styled.div`
 
 overflow : visible;
 
-margin-top : 4.3em;
+margin-top : 3.3em;
 padding : 0.8em;
 padding-top : 2.3em;
 padding-bottom : 3em;
 
-font-size: 1.75rem; 
-line-height: 2.5rem; 
+font-size: 1.5rem; 
+line-height: 2rem; 
 
 box-shadow: inset 0 0 2em 2px black;
 

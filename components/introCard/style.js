@@ -9,8 +9,8 @@ export const Paper = styled.div`
 
     background-color : transparent;
 
-    font-size: 1.75rem; 
-    line-height: 2.5rem; 
+    font-size: 1.5rem; 
+    line-height: 2rem; 
 
     margin: 1.5rem;
     margin-top : 3em;
@@ -25,8 +25,8 @@ export const Paper = styled.div`
     @media (max-width: 768px) {
         margin-top: 47vh;
         padding-bottom : 9em;
-        font-size : 1.875rem;
-        line-height: 2.25rem;
+        font-size : 1.5rem;
+        line-height: 2rem;
     }
 
     // @media(max-width : 460px){
